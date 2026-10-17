@@ -1,4 +1,4 @@
-import GRDBSQLite
+import SQLCipher
 public import StructuredQueriesSQLiteCore
 
 #if EXCLUDE_EXPORTS

@@ -1,4 +1,4 @@
-import GRDBSQLite
+import SQLCipher
 
 @usableFromInline
 func storageClassName(_ type: Int32) -> String {

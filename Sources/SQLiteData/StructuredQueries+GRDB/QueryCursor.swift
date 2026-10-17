@@ -1,6 +1,6 @@
 import Foundation
 public import GRDB
-import GRDBSQLite
+import SQLCipher
 public import StructuredQueriesCore
 
 /// A cursor of a structured query.

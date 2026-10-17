@@ -1,5 +1,5 @@
 public import Foundation
-public import GRDBSQLite
+public import SQLCipher
 public import StructuredQueriesCore
 
 #if !StrictDecoding
