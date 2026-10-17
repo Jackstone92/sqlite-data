@@ -353,7 +353,7 @@
       } else {
         try #sql(
           """
-          ATTACH DATABASE \(bind: metadatabase.path) AS \(quote: .sqliteDataCloudKitSchemaName)
+          ATTACH DATABASE \(bind: metadatabase.path) AS \(quote: .sqliteDataCloudKitSchemaName) KEY ''
           """
         )
         .execute(db)
@@ -2259,7 +2259,7 @@
       }
       try #sql(
         """
-        ATTACH DATABASE \(bind: path) AS \(quote: .sqliteDataCloudKitSchemaName)
+        ATTACH DATABASE \(bind: path) AS \(quote: .sqliteDataCloudKitSchemaName) KEY ''
         """
       )
       .execute(self)
